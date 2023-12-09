@@ -1,0 +1,132 @@
+*{
+    background-color: #e9f4fd;
+    padding: 0;
+    margin: 0;
+}
+.main-page{
+    /* background-color: red; */
+    height: 100vh;
+}
+.heading{
+    font-size: 43px;
+    height: 8%;
+    text-align: center;
+    /* position: fixed; */
+    position: absolute;
+    left: 45%;
+    top: 31px;
+    font-family: 'Lato', sans-serif;
+}
+.underline{
+    height: 4px;
+    width: 5%;
+    background-color: #d38410;
+    position: relative;
+    top: 6em;
+    left: 50%;
+}
+.btn-div{
+    display: flex;
+    justify-content: space-between;
+    height: 4%;
+    width: 24%;
+    position: relative;
+    top: 8em;
+    left: 40%;
+}
+.selectBtn{
+    color: #d38410;
+    font-family: 'Satisfy', cursive;
+    height: 28px;
+    border-radius: 7px;
+    font-weight: 600;
+    border: none;
+  
+    border-bottom: 1px solid black;
+    box-shadow: 3px -1px 9px 1px #d38410;
+}
+.allbtn{
+    width: 13%;
+}
+.breakfastbtn{
+width: 22%;
+}
+.lunchbtn{
+    width: 16%;
+}
+.drinksbtn{
+    width: 16%;
+}
+.dinebtn{
+    width: 16%;
+}
+.food-menu{
+    /* background-color: white; */
+    display: flex;
+    /* column-gap: 94px; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 78%;
+    height: 400px;
+    position: relative;
+    top: 14em;
+    left: 12em;
+}
+.food-items{
+    height: 47%;
+    width: 49%;
+    margin-left: 6px;
+    display: flex;
+}
+.item-1{
+    /* background-color: green; */
+}
+.item-2{
+    background-color:yellow;
+}
+.item-3{
+    background-color: blue;
+}
+.item-4{
+    background-color: violet;
+}
+.f_Image_1{
+    width: 126%;
+}
+.f_Image_1 > img    {
+    position: relative;
+    height: 129px;
+    width: 99%;
+    border: 2px solid #d38410;
+    border-radius: 10px;
+    top: 13px;
+    right: 9px;
+}
+.f_price_1{
+    color: #d38410;
+    font-size: 20px;
+    font-weight: 600;
+}
+.f_Name_1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.f_about-1{
+    position: relative;
+    bottom: 17px;
+}
+
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.line-after-name{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background-color: #d5cbcb;
+    bottom: 10px;
+}
