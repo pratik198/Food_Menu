@@ -10,7 +10,7 @@ const foodData = [
       image:
         "https://b.zmtcdn.com/data/pictures/5/2900405/3218168b9e8dddebe3f1dad5a6e89b20.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
       foodname: "Green Chillyz",
-      about:
+      about: 
         "1, greenchillyz the fastfoodmastercanteen bhubaneswar odisha, greenchillyz the fast foodmastercanteen square bhubaneswar odisha, green chillyz ravi talkies, green chilli master canteen bhubaneswar menu",
       price: "250",
       type:"breakfast",
